@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:dummyAppsAnimations.xcodeproj">
+      location = "self:/Users/Avi/Documents/Personal/Learning/iOS/dummyAppsAnimations/GcdExample.xcodeproj">
    </FileRef>
 </Workspace>

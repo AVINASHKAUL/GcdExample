@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		82D397C524A889E400A1D453 /* dummyAppsAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dummyAppsAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D397C524A889E400A1D453 /* GcdExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GcdExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D397C824A889E400A1D453 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82D397CA24A889E400A1D453 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		82D397CC24A889E400A1D453 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,10 +45,10 @@
 		82D397D424A889E700A1D453 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82D397D724A889E700A1D453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82D397D924A889E700A1D453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		82D397DE24A889E800A1D453 /* dummyAppsAnimationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dummyAppsAnimationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D397DE24A889E800A1D453 /* GcdExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GcdExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D397E224A889E800A1D453 /* dummyAppsAnimationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dummyAppsAnimationsTests.swift; sourceTree = "<group>"; };
 		82D397E424A889E800A1D453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		82D397E924A889E800A1D453 /* dummyAppsAnimationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dummyAppsAnimationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D397E924A889E800A1D453 /* GcdExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GcdExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D397ED24A889E800A1D453 /* dummyAppsAnimationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dummyAppsAnimationsUITests.swift; sourceTree = "<group>"; };
 		82D397EF24A889E800A1D453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,9 +91,9 @@
 		82D397C624A889E400A1D453 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				82D397C524A889E400A1D453 /* dummyAppsAnimations.app */,
-				82D397DE24A889E800A1D453 /* dummyAppsAnimationsTests.xctest */,
-				82D397E924A889E800A1D453 /* dummyAppsAnimationsUITests.xctest */,
+				82D397C524A889E400A1D453 /* GcdExample.app */,
+				82D397DE24A889E800A1D453 /* GcdExampleTests.xctest */,
+				82D397E924A889E800A1D453 /* GcdExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,9 +134,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		82D397C424A889E400A1D453 /* dummyAppsAnimations */ = {
+		82D397C424A889E400A1D453 /* GcdExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 82D397F224A889E800A1D453 /* Build configuration list for PBXNativeTarget "dummyAppsAnimations" */;
+			buildConfigurationList = 82D397F224A889E800A1D453 /* Build configuration list for PBXNativeTarget "GcdExample" */;
 			buildPhases = (
 				82D397C124A889E400A1D453 /* Sources */,
 				82D397C224A889E400A1D453 /* Frameworks */,
@@ -146,14 +146,14 @@
 			);
 			dependencies = (
 			);
-			name = dummyAppsAnimations;
+			name = GcdExample;
 			productName = dummyAppsAnimations;
-			productReference = 82D397C524A889E400A1D453 /* dummyAppsAnimations.app */;
+			productReference = 82D397C524A889E400A1D453 /* GcdExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		82D397DD24A889E800A1D453 /* dummyAppsAnimationsTests */ = {
+		82D397DD24A889E800A1D453 /* GcdExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 82D397F524A889E800A1D453 /* Build configuration list for PBXNativeTarget "dummyAppsAnimationsTests" */;
+			buildConfigurationList = 82D397F524A889E800A1D453 /* Build configuration list for PBXNativeTarget "GcdExampleTests" */;
 			buildPhases = (
 				82D397DA24A889E800A1D453 /* Sources */,
 				82D397DB24A889E800A1D453 /* Frameworks */,
@@ -164,14 +164,14 @@
 			dependencies = (
 				82D397E024A889E800A1D453 /* PBXTargetDependency */,
 			);
-			name = dummyAppsAnimationsTests;
+			name = GcdExampleTests;
 			productName = dummyAppsAnimationsTests;
-			productReference = 82D397DE24A889E800A1D453 /* dummyAppsAnimationsTests.xctest */;
+			productReference = 82D397DE24A889E800A1D453 /* GcdExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		82D397E824A889E800A1D453 /* dummyAppsAnimationsUITests */ = {
+		82D397E824A889E800A1D453 /* GcdExampleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 82D397F824A889E800A1D453 /* Build configuration list for PBXNativeTarget "dummyAppsAnimationsUITests" */;
+			buildConfigurationList = 82D397F824A889E800A1D453 /* Build configuration list for PBXNativeTarget "GcdExampleUITests" */;
 			buildPhases = (
 				82D397E524A889E800A1D453 /* Sources */,
 				82D397E624A889E800A1D453 /* Frameworks */,
@@ -182,9 +182,9 @@
 			dependencies = (
 				82D397EB24A889E800A1D453 /* PBXTargetDependency */,
 			);
-			name = dummyAppsAnimationsUITests;
+			name = GcdExampleUITests;
 			productName = dummyAppsAnimationsUITests;
-			productReference = 82D397E924A889E800A1D453 /* dummyAppsAnimationsUITests.xctest */;
+			productReference = 82D397E924A889E800A1D453 /* GcdExampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 82D397C024A889E400A1D453 /* Build configuration list for PBXProject "dummyAppsAnimations" */;
+			buildConfigurationList = 82D397C024A889E400A1D453 /* Build configuration list for PBXProject "GcdExample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,9 +223,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				82D397C424A889E400A1D453 /* dummyAppsAnimations */,
-				82D397DD24A889E800A1D453 /* dummyAppsAnimationsTests */,
-				82D397E824A889E800A1D453 /* dummyAppsAnimationsUITests */,
+				82D397C424A889E400A1D453 /* GcdExample */,
+				82D397DD24A889E800A1D453 /* GcdExampleTests */,
+				82D397E824A889E800A1D453 /* GcdExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -290,12 +290,12 @@
 /* Begin PBXTargetDependency section */
 		82D397E024A889E800A1D453 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 82D397C424A889E400A1D453 /* dummyAppsAnimations */;
+			target = 82D397C424A889E400A1D453 /* GcdExample */;
 			targetProxy = 82D397DF24A889E800A1D453 /* PBXContainerItemProxy */;
 		};
 		82D397EB24A889E800A1D453 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 82D397C424A889E400A1D453 /* dummyAppsAnimations */;
+			target = 82D397C424A889E400A1D453 /* GcdExample */;
 			targetProxy = 82D397EA24A889E800A1D453 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -370,7 +370,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -424,7 +424,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -445,8 +445,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = in.Eureka.dummyAppsAnimations;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = kaul.avinash.GcdExample;
+				PRODUCT_NAME = GcdExample;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -463,8 +463,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = in.Eureka.dummyAppsAnimations;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = kaul.avinash.GcdExample;
+				PRODUCT_NAME = GcdExample;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -488,7 +488,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dummyAppsAnimations.app/dummyAppsAnimations";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GcdExample.app/GcdExample";
 			};
 			name = Debug;
 		};
@@ -510,7 +510,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dummyAppsAnimations.app/dummyAppsAnimations";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GcdExample.app/GcdExample";
 			};
 			name = Release;
 		};
@@ -557,7 +557,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		82D397C024A889E400A1D453 /* Build configuration list for PBXProject "dummyAppsAnimations" */ = {
+		82D397C024A889E400A1D453 /* Build configuration list for PBXProject "GcdExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				82D397F024A889E800A1D453 /* Debug */,
@@ -566,7 +566,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		82D397F224A889E800A1D453 /* Build configuration list for PBXNativeTarget "dummyAppsAnimations" */ = {
+		82D397F224A889E800A1D453 /* Build configuration list for PBXNativeTarget "GcdExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				82D397F324A889E800A1D453 /* Debug */,
@@ -575,7 +575,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		82D397F524A889E800A1D453 /* Build configuration list for PBXNativeTarget "dummyAppsAnimationsTests" */ = {
+		82D397F524A889E800A1D453 /* Build configuration list for PBXNativeTarget "GcdExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				82D397F624A889E800A1D453 /* Debug */,
@@ -584,7 +584,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		82D397F824A889E800A1D453 /* Build configuration list for PBXNativeTarget "dummyAppsAnimationsUITests" */ = {
+		82D397F824A889E800A1D453 /* Build configuration list for PBXNativeTarget "GcdExampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				82D397F924A889E800A1D453 /* Debug */,
